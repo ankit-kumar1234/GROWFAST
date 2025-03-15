@@ -1,0 +1,148 @@
+/* Basic reset */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+/* Body styles */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f4f4f4;
+
+    color: #333;
+
+    text-align: center;
+
+    padding: 20px;
+
+}
+
+/* Heading styles */
+
+h1 {
+
+    margin-bottom: 20px;
+
+    color: #444;
+
+}
+
+/* Button styles */
+
+button {
+
+    background-color: #3498db;
+
+    color: white;
+
+    border: none;
+
+    padding: 10px 20px;
+
+    font-size: 16px;
+
+    margin: 10px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+
+button:hover {
+
+    background-color: #2980b9;
+
+}
+
+/* Task container styles */
+
+#task-container {
+
+    margin-top: 20px;
+
+}
+
+/* Task styles */
+
+.task {
+
+    background-color: #fff;
+
+    padding: 15px;
+
+    margin: 10px 0;
+
+    border: 1px solid #ddd;
+
+    border-radius: 5px;
+
+    text-align: left;
+
+    font-size: 16px;
+
+}
+
+.task a {
+
+    color: #3498db;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
+.task a:hover {
+
+    text-decoration: underline;
+
+}
+
+/* Completed task styles */
+
+.task.completed {
+
+    background-color: #eafaf1;
+
+    border-color: #2ecc71;
+
+}
+
+.task.completed a {
+
+    color: #2ecc71;
+
+}
+
+.task.completed span {
+
+    font-weight: bold;
+
+    color: #2ecc71;
+
+}
+
+/* Timer container styles */
+
+#timer-container {
+
+    margin-top: 30px;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    color: #e74c3c;
+
+}
